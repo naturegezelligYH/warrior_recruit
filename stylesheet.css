@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: fit-content;
+    
+}
+
+header {
+    height: fit-content;
+}
+
+.top-photo {
+    width: auto;
+    height: auto;
+}
+
+.top-photo .cover {
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(143, 123, 71, 0.6);
+}
+
+.top-photo img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+.top-warrior h1 {
+    font-size: 85px;
+    color: aliceblue;
+    width: 100%;
+    text-shadow: 6px 6px 3px rgb(67, 64, 64);
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    top: 200px;
+    
+}
+
+.philosophy h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+    text-shadow: 4px 4px 2px rgb(67, 64, 64);
+    position: absolute;
+    top: 480px;
+}
+
+.headline {
+    width: 100%;
+    height: 550px;
+    background-color: rgba(190, 190, 175, 0.35);
+    position: absolute;
+    top: 800px;
+}
+
+.headline h1 {
+    font-size: 50px;
+    white-space: pre;
+    text-align: center;
+    text-decoration: underline;
+    position: relative;
+    top: 50px;
+}
+
+.headline p {
+    width: fit-content;
+    height: fit-content;
+    font-size: 20px;
+    color: rgb(6, 6, 6);
+    white-space: pre;
+    text-align: left;
+    position: relative;
+    top: 80px;
+    left: 303px;
+}
+
+.attractiveness {
+    width: 100%;
+    position: absolute;
+    top: 1400px;
+}
+
+.attractiveness h2 {
+    font-size: 50px;
+    color:rgb(145, 105, 5);
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+.main {
+    position: relative;
+    top: 50px;
+    left: 5%;
+    width: 25%;
+    height: 500px;
+    float: left;
+    margin: 2.5%;
+
+}
+
+.attractiveness img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.main .cover {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    background: linear-gradient(to bottom, rgb(180, 131, 7, .25) 23%, rgb(225, 225, 220) 40%, rgb(225, 225, 220))
+}
+
+.title {    
+    font-size: 23px;
+    color: aliceblue;
+    text-shadow: 4px 4px 3px rgb(26, 25, 25);
+    position: relative;
+    top: -85px;
+    left: 30px;
+}
+
+.text {    
+    font-size: 15px;
+    color: black;
+    width: 75%;
+    text-align: justify;
+    position: relative;
+    top: -60px;
+    left: 12.5%;
+}
+
+.requirements h2 {
+    width: 100%;
+    font-size: 50px;
+    color:rgb(145, 105, 5);
+    position: absolute;
+    top: 2680px;
+    text-align: center;
+}
+
+table{
+    position: absolute;
+    top: 2770px;
+    left: 280px;
+}
+
+table th,
+table td{
+    font-size: 20px;
+    width: 700px;
+    display: block;
+    text-align: left;
+}
+
+table th{
+    background-color: rgb(225, 225, 220);
+    line-height: 2;
+    padding-left: 45px;
+}
+
+table td{
+    line-height: 3;
+    padding-left: 60px;
+}
+
+.contact-form {
+    width: 100%;
+    position:absolute;
+    top:3730px;
+}
+
+.contact-form h2{
+    font-size: 50px;
+    color:rgb(145, 105, 5);
+    text-align: center;
+}
+
+.contact-form p{
+    font-size: 25px;
+    position: absolute;
+    top: 120px;
+    left: 24%;
+    text-align: center;
+}
+
+.item {
+    overflow: hidden;
+    margin-bottom: 40px;
+    position: relative;
+    top: 200px;
+    left: 24%;
+}
+
+.label {
+    float: left;
+    margin-right: 20px;
+    padding-left: 20px;
+    width: 300px;
+    border-left: solid rgb(145, 105, 5) 5px ;
+}
+
+.inputs {
+    float: left;
+    width: 300px;
+}
+
+input[type="text"],
+input[type="email"] {
+    font-size: 20px;
+    border: solid #aaa 1.5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+textarea {
+    width: 300px;
+    height: 250px;
+    font-size: 20px;
+    padding: 15px;
+    border: solid #aaa 1.5px;
+    border-radius: 5px;
+}
+
+.button-area {
+    margin-bottom: 400px;
+    text-align: center;
+    position: relative;
+    top: 270px;
+}
+
+input[type="submit"]{
+    background-color:rgb(145, 105, 5) ;
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 20px;
+    box-shadow: 2px 2px 3px black;
+    cursor: pointer;
+}
+
+input[type="reset"]{
+    background-color:#aaa ;
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 20px;
+    box-shadow: 2px 2px 3px black;
+    cursor: pointer;
+}
+
+/*.contact-form h5 {
+    font-size: 25px;
+    width: 200px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.question h5{
+    width: 300px;
+    margin-left: 80px;
+
+}
+
+.essential {
+    color:aliceblue;
+    background-color:crimson;
+    width: fit-content;
+    font-size: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: inline-block;
+}
+
+input{
+    font-size: 25px;
+    width: 600px;
+    border: solid black 2px;
+    margin-left: 10px;
+}
+
+textarea{
+    display: block;
+    width: 50%;
+    height: 100px;
+    border: solid black 2px;
+}
