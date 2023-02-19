@@ -61,27 +61,27 @@ header {
     background-color: rgba(190, 190, 175, 0.35);
     position: absolute;
     top: 800px;
+    text-align: center;
 }
 
 .headline h1 {
     font-size: 50px;
     white-space: pre;
-    text-align: center;
     text-decoration: underline;
     position: relative;
     top: 50px;
+    
 }
 
 .headline p {
-    width: fit-content;
-    height: fit-content;
+    display: inline-block;
+    text-align: left;
     font-size: 20px;
     color: rgb(6, 6, 6);
     white-space: pre;
-    text-align: left;
     position: relative;
     top: 80px;
-    left: 303px;
+   
 }
 
 .attractiveness {
@@ -156,9 +156,10 @@ header {
 }
 
 table{
-    position: absolute;
-    top: 2770px;
-    left: 280px;
+    position: relative;
+    top: 1960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 table th,
@@ -181,6 +182,7 @@ table td{
 }
 
 .contact-form {
+    text-align: center;
     width: 100%;
     position:absolute;
     top:3730px;
@@ -189,23 +191,24 @@ table td{
 .contact-form h2{
     font-size: 50px;
     color:rgb(145, 105, 5);
-    text-align: center;
 }
 
 .contact-form p{
+    width: 100%;
     font-size: 25px;
     position: absolute;
     top: 120px;
-    left: 24%;
-    text-align: center;
+    
 }
 
 .item {
     overflow: hidden;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 40px;
     position: relative;
     top: 200px;
-    left: 24%;
 }
 
 .label {
