@@ -54,6 +54,7 @@ header {
     text-shadow: 4px 4px 2px rgb(67, 64, 64);
     position: absolute;
     top: 480px;
+    display: none;
 }
 
 .headline {
