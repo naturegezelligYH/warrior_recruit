@@ -133,7 +133,8 @@
 
           <form action="https://api.staticforms.xyz/submit" method="post" onsubmit="return func1()" id="form1">
            
-            <input type="hidden" name="accessKey" value="33091236-5980-43f1-b16b-3698bf84162f">
+            <input type="hidden" name="accessKey" value="edb19e19-d697-4cd8-b62f-53adc81f7be6">
+           <!--33091236-5980-43f1-b16b-3698bf84162f, ほのみedb19e19-d697-4cd8-b62f-53adc81f7be6-->
             
             <div class="item">
               <label class="label">お名前 (必須)</label>
@@ -166,25 +167,27 @@
             </div>
 
             <div class="button-area">
-              <input type="submit"  onclick="location.href='https://naturegezelligyh.github.io/warrior_recruit_send/'" value="送信"/>
+              <input type="submit" value="送信"/>
               <input type="reset" value="リセット" />
-            </div>
-
-            <script language="javascript" type="text/javascript">
-              // Enterキーが押された時にSubmitされるのを抑制する
-              document.getElementById("form1").onkeypress = (e) => {
-                // form1に入力されたキーを取得
-                const key = e.keyCode || e.charCode || 0;
-                // 13はEnterキーのキーコード
-                if (key == 13) {
-                  // アクションを行わない
-                  e.preventDefault();
-                }
-              }
-            </script>
-            
-
+            </div>       
           </form> 
+
+          <script language="javascript" type="text/javascript">
+            // Enterキーが押された時にSubmitされるのを抑制する
+            document.getElementById("form1").onkeypress = (e) => {
+              // form1に入力されたキーを取得
+              const key = e.keyCode || e.charCode || 0;
+              // 13はEnterキーのキーコード
+              if (key == 13) {
+                // アクションを行わない
+                e.preventDefault();
+              }
+            }
+          
+          </script>
+
+
+
         </div>
 
          <!--
