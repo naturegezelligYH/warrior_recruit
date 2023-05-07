@@ -208,6 +208,14 @@ table td{
     
 }
 
+.contact-form p.comment{
+    width: 90%;
+    font-size: 18px;
+    position: relative;
+    top: -100px;
+    left: 5%;
+}
+
 .item {
     overflow: hidden;
     width: fit-content;
@@ -492,6 +500,14 @@ input[type="reset"]{
         top: 80px;
         left: 5%;
     }
+
+    .contact-form p.comment{
+        width: 90%;
+        font-size: 18px;
+        position: relative;
+        top: -150px;
+        left: 5%;
+    }
     
     .item {
         overflow: hidden;
@@ -568,7 +584,7 @@ input[type="reset"]{
     font-size: 25px;
     width: 200px;
     margin-left: 15px;
-    display: inline-block;　
+    display: inline-block;
 }
 
 .question h5{
